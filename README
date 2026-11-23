@@ -1,0 +1,13 @@
+tlite
+
+Tamper-evident tables for SQLite.
+
+tlite records changes to chosen SQLite tables in an append-only
+Merkle log, in the same file. Checkpoints use the C2SP signed-note
+format and can be time-stamped (RFC 3161). Anyone can verify an
+exported bundle offline.
+
+Status: early. Not usable yet.
+
+Plan: see PLAN.
+License: Apache 2.0. See LICENSE.
